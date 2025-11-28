@@ -1,0 +1,281 @@
+* {
+  padding: 0;
+  margin: 0;
+
+}
+
+:root {
+  --dark-color: #061a3f;
+  --yellow-color: #f88409;
+  --blue-color: #11C5F4;
+  --orangr-color: #F5A300;
+  --section-color: #eff7fa;
+
+}
+
+body {
+
+  font-family: "Roboto", sans-serif;
+
+}
+
+.main-btn {
+  /* background-color: var(--orangr-color); */
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
+/* start navbar */
+.navbar {
+  background-color: var(--dark-color);
+}
+
+.navbar .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+  color: var(--yellow-color);
+}
+
+.navbar .search {
+  border-left: 1px solid var(--yellow-color);
+
+}
+
+.navbar .search svg {
+  color: var(--yellow-color);
+}
+
+.navbar .navbar-toggler {
+  color: white;
+  font-size: 25px;
+  border-color: white;
+
+}
+
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+
+}
+
+.navbar .navbar-toggler[aria-expanded="true"] {
+  border-color: var(--yellow-color);
+}
+
+/* end navbar */
+
+/* start homme */
+.homme {
+  background-image: url(img/home\ img.jpeg);
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  bottom: 10px;
+  margin-bottom: 30px;
+}
+
+/* end homme */
+
+/* start our-work */
+.our-work {
+  background-color: var(--section-color);
+  /* text-decoration: underline red; */
+}
+
+/* end our-work */
+
+/* start cards */
+.heding-one {
+  margin-top: 10px;
+}
+
+.card {
+  width: 270px;
+  height: 450px;
+  margin: auto;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body img {
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+}
+
+.card-body h4 {
+  font-size: 20px;
+  text-align: center;
+  margin: 6px 0;
+}
+
+.card-des {
+  padding: 5px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 140px;
+}
+
+.button-two {
+  margin-bottom: 10px;
+  gap: 5px;
+  padding: 5px;
+}
+
+.card .button-two .btn-outline-warning {
+  color: var(--yellow-color);
+  border-color: var(--yellow-color);
+  width: 101.86px;
+
+}
+
+.card .button-two .btn-outline-warning:hover {
+  color: white;
+  background-color: var(--yellow-color);
+  border-color: var(--yellow-color);
+}
+
+.card-des::-webkit-scrollbar {
+  width: 8px;
+}
+
+.card-des::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.card-des::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* start cards */
+
+/* start footer */
+.footer {
+  background-color: var(--dark-color);
+}
+
+.footer .copyright>span {
+  color: var(--yellow-color);
+}
+
+.footer .copyright div span {
+  color: var(--blue-color);
+}
+
+.footer .contact ul svg {
+  width: 20px;
+  height: 20px;
+}
+
+.footer .facebook {
+  background-color: #1877f2;
+}
+
+.footer .twitter {
+  background-color: #000000;
+}
+
+.footer .linkedin {
+  background-color: #0077b5;
+}
+
+.footer .youtube {
+  background-color: #ff0000;
+}
+
+/* end footer */
+
+/* Dark Mode */
+.btn-outline-dark {
+  color: white;
+  margin: 10px;
+  /* border-radius: 50%; */
+  border-color: white;
+}
+.btn-outline-dark:hover{
+  background-color: black;
+  color: white;
+}
+.btn-outline-light {
+   margin: 10px;
+   /* border-radius: 50%; */
+}
+
+.dark-mode {
+  background-color: #0d0d0d !important;
+  color: #e6e6e6 !important;
+}
+
+/* navbar */
+.dark-mode .navbar {
+  background-color: #111 !important;
+}
+.dark-mode .navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+  color: var(--yellow-color) !important;
+}
+.dark-mode .our-work{
+  background-color: #0d0d0d;
+}
+.dark-mode .our-work h2{
+  color:rgba(255, 255, 255, 0.832) !important;
+}
+/* النصوص */
+.dark-mode h1,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode p,
+.dark-mode a {
+  color: #e6e6e6 !important;
+}
+
+/* الكروت */
+.dark-mode .card {
+  background-color: #1a1a1a !important;
+  color: #e6e6e6 !important;
+  border: 1px solid #333;
+}
+
+.dark-mode .card img {
+  opacity: 0.9;
+}
+
+/* الفوتر */
+.dark-mode .footer {
+  background-color: #111 !important;
+  color: #e6e6e6 !important;
+}
+
+.dark-mode .footer a {
+  color: #bbb !important;
+}
+
+/* الأزرار */
+.dark-mode .btn-primary {
+  background-color: #0056b3 !important;
+  border-color: #0056b3 !important;
+}
+
+.dark-mode .btn-outline-warning {
+  color: #ffc107 !important;
+  border-color: #ffc107 !important;
+}
+/* زرار الترجمه */
+select{
+  margin: 10px;
+  padding: 5px;
+}
