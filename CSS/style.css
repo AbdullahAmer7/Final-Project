@@ -122,7 +122,6 @@ html[dir="rtl"] .navbar-brand {
 
 /* start hero */
 .hero {
-  /* background: url(/img/img-Hero.jpg) no-repeat center; */
   background-position: center center;
   background-size: cover;
   width: 100%;
@@ -139,12 +138,12 @@ html[dir="rtl"] .navbar-brand {
  @keyframes heroSlider {
   0%,
   50% {
-    background-image: url("/img/img-Hero.jpg");
+    background-image: url("../img/img-Hero.jpg");
   }
 
  50.01%,
  100% {
-    background-image: url("/img/img-Hero2.jpg");
+    background-image: url("../img/img-Hero2.jpg");
   }
 
 } 
