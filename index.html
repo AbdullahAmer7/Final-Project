@@ -5,367 +5,385 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rahlat Turathna</title>
-  <link rel="stylesheet" href="boots/css/bootstrap.min.css">
-  <link rel="stylesheet" href="boots/css/all.min.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="CSS/css/bootstrap.min.css">
+  <link rel="stylesheet" href="CSS/css/all.min.css">
+  <link rel="stylesheet" href="CSS/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="icon" href="img/Untitled design (3) (2) (2) (3).png">
+  <link rel="icon" href="img/Logo-1.png">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"rel="stylesheet">
 </head>
 
 <body>
   <!-- start navbar -->
+  <!-- HEADER -->
   <nav class="navbar navbar-expand-lg sticky-top ">
-    <div class="container ">
-      <a class="navbar-brand " href="#">
-        <img src="img/Untitled design (3) (2) (1).png" alt="" width="60px" height="50px">
+    <div class="container">
+      <a class="navbar-brand me-auto" href="#">
+        <img src="img/Logo-2.png" alt="Rahlat-Turathna" width="60px" height="50px">
       </a>
-
-      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#main"
-        aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fa-solid fa-bars"></i>
-      </button>
 
       <div class="collapse navbar-collapse" id="main">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link p-2 p-lg-3 active " aria-current="page" href="#" data-translete="Home">Home</a>
+            <a class="nav-link p-2 p-lg-3 active " aria-current="page" href="#" data-translate="Home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link p-2 p-lg-3  " href="#" data-translete="ExploreSites">Explore Sites</a>
+            <a class="nav-link p-2 p-lg-3  " href="#" data-translate="ExploreSites">Explore Sites</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link p-2 p-lg-3 " href="#" data-translete="BookTickets">Book Tickets</a>
+            <a class="nav-link p-2 p-lg-3 " href="#" data-translate="BookTickets">Book Tickets</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link p-2 p-lg-3 " href="#" data-translete="Guides">Guides</a>
+            <a class="nav-link p-2 p-lg-3 " href="#" data-translate="Guides">Guides</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link p-2 p-lg-3  " href="#" data-translete="Transportation">Transportation</a>
+            <a class="nav-link p-2 p-lg-3 " href="#" data-translate="Contact">Contact</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link p-2 p-lg-3 " href="#" data-translete="Contact">Contact</a>
-          </li>
-
-
         </ul>
-        <div class="search ps-3 pe-3 d-none d-lg-block">
+
+        <div class="search ps-3 pe-3 ms-3 d-none d-lg-block">
           <i class="fa-solid fa-magnifying-glass"></i>
         </div>
-        <select>
-          <option value="en" data-translete="English" selected>English</option>
-          <option value="ar" data-translete="Arabic">Arabic</option>
-        </select>
-       <button id="darkToggle" class="btn btn-outline-dark me-3">
+      </div>
+      
+      <select class="btn btn btn-outline-secondary m-2 p-2  ">
+        <option value="en" data-translate="English" selected>English</option>
+        <option value="ar" data-translate="Arabic">Arabic</option>
+      </select>
+      
+      <button id="darkToggle" class="btn btn-outline-dark me-3">
         <i class="fa-solid fa-moon"></i>
       </button>
-
-      <!-- <button id="langToggle" class="btn btn-outline-primary me-3"> AR</button>     -->
-
-
-        <a class="btn btn-primary rounded-pill main-btn" href="#" data-translete="Login">Login</a>
-      </div>
-
+      
+      <a class="btn btn-secondary rounded-pill me-3 main-btn" href="#" data-translate="Login">Login</a>
+      
+      <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#main"
+        aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
     </div>
   </nav>
   <!-- end navbar -->
 
-  <!-- start homme  -->
-  <div class="homme">
-    <div class="des-homme">
-      <h1 data-translete="DiscoverEgyptIslamicHeritage">Discover Egypt's Islamic Heritage</h1>
-      <p data-translete="Bookguidedtourstotimelesslandmarks">Book guided tours to timeless landmarks</p>
-      <a class="btn btn-primary rounded-pill main-btn" href="#" data-translete="ExploreNow">Explore Now</a>
+  <!-- start hero  -->
+  <!-- SECTION-ONE -->
+  <div class="hero">
+    <div class="desc-hero">
+      <h1 data-translate="DiscoverEgyptIslamicHeritage">Discover Egypt's Islamic Heritage</h1>
+      <p class="fw-bold" data-translate="Bookguidedtourstotimelesslandmarks">Book guided tours to timeless landmarks</p>
+      <a class="btn btn-primary rounded-pill main-btn" href="#" data-translate="ExploreNow">Explore Now</a>
     </div>
   </div>
-  <!-- end homme  -->
-  <!-- start our-work -->
+  <!-- end hero  -->
 
-  <div class="our-work text-center pt-5 pb-5">
-    <div class="main-title  mb-5 position-relative">
-      <h2 class="text-black-50 " data-translete="FamousIslamicHeritageSites">Famous Islamic Heritage Sites</h2>
-    </div>
+<!-- start our-work -->
+<!-- SECTION-TWO -->
+    <div class="our-work text-center pt-5 pb-5">
+      <div class="main-title  mb-5 position-relative">
+        <h2 class="text-black-50 " data-translate="FamousIslamicHeritageSites">Famous Islamic Heritage Sites</h2>
+      </div>
 
-    <!-- start cards -->
+ <!-- start cards -->
     <div class="container ">
       <div class="row">
         <div class="col-12 col-md-6 col-lg-4 mb-5 d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
+          <div class="card">
             <div class="card-body">
-              <img src="img/img2/1.jpeg" class="card-img-top" alt="...">
-              <h4 data-translete="AlHakimMosque">Al-Hakim Mosque</h4>
-              <div class="card-des">
-                <p>The construction of the mosque began during the reign of the Fatimid Caliph Al-Aziz Billah in 380
-                  AH/990 AD, and was completed by his son, Caliph Al-Hakim bi-Amr Allah, in 403 AH/1013 AD.</p>
+              <img src="img/Landmark-1.jpeg" class="card-img-top" alt="Al-Hakim Mosque" title="Al-Hakim Mosque">
+              <h4 data-translate="AlHakimMosque">Al-Hakim Mosque</h4>
+              <div class="card-desc">
+                <p data-translate="p1">The construction of the mosque began during the reign of the Fatimid Caliph
+                  Al-Aziz Billah in 380
+                  AH/990 AD, and was completed by his son, Caliph Al-Hakim bi-Amr Allah, in 403 AH/1013 AD, It follows
+                  the layout of congregational mosques, It consists of a central open courtyard surrounded by four
+                  porticos, which are structural supports holding arches that support the wooden roof.</p>
               </div>
             </div>
             <div class="button-two d-flex justify-content-between">
-              <a href="https://en.wikipedia.org/wiki/Al-Hakim_Mosque" class="btn btn-primary " target="_blank" data-translete="Readmore">Read
-                more</a>
-              <button type="button" class="btn btn-outline-warning " data-translete="Booknow">Book now</button>
+              <a href="https://en.wikipedia.org/wiki/Al-Hakim_Mosque" class="btn btn-primary " target="_blank" data-translate="Readmore">Read more</a>
+              <button type="button" class="btn btn-outline-warning" data-translate="Booknow">Book now</button>
             </div>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-4 mb-5 d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
+          <div class="card">
             <div class="card-body">
-              <img src="img/img2/2.jpeg" class="card-img-top" alt="...">
-              <h4 data-translete="SaladinCitadel">Saladin Citadel</h4>
-              <div class="card-des">
-                <p>Saladin began its construction between 572 AH/1176 AD and 579 AH/1183 AD, but it was not completed
-                  during his lifetime.</p>
+              <img src="img/Landmark-2.jpeg" class="card-img-top" alt="Saladin Citadel" title="Saladin Citadel">
+              <h4 data-translate="SaladinCitadel">Saladin Citadel</h4>
+              <div class="card-desc">
+                <p data-translate="p2">Saladin began its construction between 572 AH/1176 AD and 579 AH/1183 AD, but it
+                  was not completed
+                  during his lifetime, It was completed by Sultan Al-Kamil ibn Al-Adil in 604 AH / 1207 AD, and it
+                  remained the seat of power in Egypt until the reign of Khedive Ismail.</p>
                 </p>
               </div>
             </div>
             <div class="button-two d-flex justify-content-between">
-              <a href="https://en.wikipedia.org/wiki/Cairo_Citadel" class="btn btn-primary " target="_blank" data-translete="Readmore">Read
-                more</a>
-              <button type="button" class="btn btn-outline-warning " data-translete="Booknow">Book now</button>
+              <a href="https://en.wikipedia.org/wiki/Cairo_Citadel" class="btn btn-primary " target="_blank" data-translate="Readmore">Read more</a>
+              <button type="button" class="btn btn-outline-warning " data-translate="Booknow">Book now</button>
             </div>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-4 mb-5 d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
+          <div class="card">
             <div class="card-body">
-              <img src="img/img2/3.jpeg" class="card-img-top" alt="...">
-              <h4 data-translete="AlAzharMosque">Al-Azhar Mosque</h4>
-              <div class="card-des">
-                <p>It was built by Jawhar al-Siqilli, and the first Friday prayer in Ramadan was held there in the year
-                  361 AH/972 AD. It was named Al-Azhar after Lady Fatima al-Zahra.</p>
+              <img src="img/Landmark-3.jpeg" class="card-img-top" alt="Al-Azhar Mosque" title="Al-Azhar Mosque">
+              <h4 data-translate="AlAzharMosque">Al-Azhar Mosque</h4>
+              <div class="card-desc">
+                <p data-translate="p3">It was built by Jawhar al-Siqilli, and the first Friday prayer in Ramadan was
+                  held there in the year
+                  361 AH/972 AD. It was named Al-Azhar after Lady Fatima al-Zahra, Its initial layout consisted of an
+                  open courtyard surrounded by three porticos. Renovations, additions, and restorations continued during
+                  the Fatimid period and in the eras that followed.</p>
                 </p>
               </div>
             </div>
             <div class="button-two d-flex justify-content-between">
-              <a href="https://en.wikipedia.org/wiki/Al-Azhar_Mosque" class="btn btn-primary " target="_blank" data-translete="Readmore">Read
-                more</a>
-              <button type="button" class="btn btn-outline-warning " data-translete="Booknow">Book now</button>
+              <a href="https://en.wikipedia.org/wiki/Al-Azhar_Mosque" class="btn btn-primary " target="_blank" data-translate="Readmore">Read more</a>
+              <button type="button" class="btn btn-outline-warning " data-translate="Booknow">Book now</button>
             </div>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-4 mb-5 d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
+          <div class="card">
             <div class="card-body">
-              <img src="img/img2/4.jpg" class="card-img-top" alt="...">
-              <h6 class="heding-one" data-translete="SultanAlZahirBaybarsMosque">Sultan Al-Zahir Baybars Mosque</h6>
-              <div class="card-des">
-                <p>It is considered one of the oldest mosques of the Mamluk era. Its construction was begun by Al-Zahir
-                  Baybars Al-Bunduqdari (658-676 AH / 1260-1277 AD).</p>
+              <img src="img/Landmark-4.jpg" class="card-img-top" alt="Sultan Al-Zahir Baybars Mosque" title="Sultan Al-Zahir Baybars Mosque">
+              <h6 class="mt-2" data-translate="SultanAlZahirBaybarsMosque">Sultan Al-Zahir Baybars Mosque</h6>
+              <div class="card-desc">
+                <p data-translate="p4">It is considered one of the oldest mosques of the Mamluk era. Its construction
+                  was begun by Al-Zahir
+                  Baybars Al-Bunduqdari (658-676 AH / 1260-1277 AD) On an area of approximately three feddans (12,600
+                  square meters), in the year 665 AH / 1266 AD, and it continued to host religious rituals for a long
+                  period.</p>
                 </p>
               </div>
             </div>
             <div class="button-two d-flex justify-content-between">
-              <a href="https://en.wikipedia.org/wiki/Mosque_of_al-Zahir_Baybars" class="btn btn-primary "
-                target="_blank" data-translete="Readmore">Read more</a>
-              <button type="button" class="btn btn-outline-warning " data-translete="Booknow">Book now</button>
+              <a href="https://en.wikipedia.org/wiki/Mosque_of_al-Zahir_Baybars" class="btn btn-primary " target="_blank" data-translate="Readmore">Read more</a>
+              <button type="button" class="btn btn-outline-warning " data-translate="Booknow">Book now</button>
             </div>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-4 mb-5 d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
+          <div class="card">
             <div class="card-body">
-              <img src="img/img2/5.jpeg" class="card-img-top" alt="...">
-              <h4 data-translete="GayerAndersonMuseum">Gayer-Anderson Museum</h4>
-              <div class="card-des">
-                <p>The Gayer-Anderson Museum is one of the most important Islamic monuments in Egypt, distinguished by
-                  its oriental architectural design.</p>
+              <img src="img/Landmark-5.jpeg" class="card-img-top" alt="Gayer-Anderson Museum" title="Gayer-Anderson Museum">
+              <h4 data-translate="GayerAndersonMuseum">Gayer-Anderson Museum</h4>
+              <div class="card-desc">
+                <p data-translate="p5">The Gayer-Anderson Museum is one of the most important Islamic monuments in
+                  Egypt, distinguished by
+                  its oriental architectural design. The museum was originally composed of two separate houses, built
+                  during the Ottoman era, adjacent to each other.</p>
                 </p>
               </div>
             </div>
             <div class="button-two d-flex justify-content-between">
-              <a href="https://en.wikipedia.org/wiki/Gayer-Anderson_Museum" class="btn btn-primary "
-                target="_blank"  data-translete="Readmore">Read more</a>
-              <button type="button" class="btn btn-outline-warning " data-translete="Booknow">Book now</button>
+              <a href="https://en.wikipedia.org/wiki/Gayer-Anderson_Museum" class="btn btn-primary " target="_blank" data-translate="Readmore">Read more</a>
+              <button type="button" class="btn btn-outline-warning " data-translate="Booknow">Book now</button>
             </div>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-4 mb-5 d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
+          <div class="card">
             <div class="card-body">
-              <img src="img/img2/6.jpeg" class="card-img-top" alt="...">
-              <h4 data-translete="MuseumofIslamicArt">Museum of Islamic Art</h4>
-              <div class="card-des">
-                <p>The Museum of Islamic Art is the largest museum of Islamic antiquities in the world, displaying
-                  diverse collections of Islamic art from Egypt, India, China.</p>
+              <img src="img/Landmark-6.jpeg" class="card-img-top" alt="Museum of Islamic Art" title="Museum of Islamic Art">
+              <h4 data-translate="MuseumofIslamicArt">Museum of Islamic Art</h4>
+              <div class="card-desc">
+                <p data-translate="p6">The Museum of Islamic Art is the largest museum of Islamic antiquities in the
+                  world, displaying
+                  diverse collections of Islamic art from Egypt, India, China, Andalusia, the Levant, the Arabian
+                  Peninsula, North Africa, and other parts of the Islamic world. The idea of establishing it began
+                  during the reign of Khedive Ismail in 1869.</p>
                 </p>
               </div>
             </div>
             <div class="button-two d-flex justify-content-between">
-              <a href="https://en.wikipedia.org/wiki/Museum_of_Islamic_Art,_Cairo" class="btn btn-primary "
-                target="_blank" data-translete="Readmore">Read more</a>
-              <button type="button" class="btn btn-outline-warning " data-translete="Booknow">Book now</button>
+              <a href="https://en.wikipedia.org/wiki/Museum_of_Islamic_Art,_Cairo" class="btn btn-primary " target="_blank" data-translate="Readmore">Read more</a>
+              <button type="button" class="btn btn-outline-warning " data-translate="Booknow">Book now</button>
             </div>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-4 mb-5 d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
+          <div class="card">
             <div class="card-body">
-              <img src="img/img2/7.jpeg" class="card-img-top" alt="...">
-              <h4 data-translete="SultanAlGhuriAgency">Sultan Al-Ghuri Agency</h4>
-              <div class="card-des">
-                <p>It is a commercial building that was used to house incoming merchants, to store and sell goods, and
-                  to conduct business deals.</p>
+              <img src="img/Landmark-7.jpeg" class="card-img-top" alt="Sultan Al-Ghuri Agency" title="Sultan Al-Ghuri Agency">
+              <h4 data-translate="SultanAlGhuriAgency">Sultan Al-Ghuri Agency</h4>
+              <div class="card-desc">
+                <p data-translate="p7">It is a commercial building that was used to house incoming merchants, to store
+                  and sell goods, and
+                  to conduct business deals, For storing and selling goods and conducting commercial transactions. The
+                  Sultan Al-Ghuri Agency is located on Al-Tablita Street in the Al-Azhar district and is also known as
+                  the Nakhlah and Al-Masbagha Agency.</p>
                 </p>
               </div>
             </div>
             <div class="button-two d-flex justify-content-between">
-              <a href="https://en.wikipedia.org/wiki/Wikala_of_al-Ghuri" class="btn btn-primary " target="_blank" data-translete="Readmore">Read
-                more</a>
-              <button type="button" class="btn btn-outline-warning " data-translete="Booknow">Book now</button>
+              <a href="https://en.wikipedia.org/wiki/Wikala_of_al-Ghuri" class="btn btn-primary " target="_blank" data-translate="Readmore">Read more</a>
+              <button type="button" class="btn btn-outline-warning " data-translate="Booknow">Book now</button>
             </div>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-4 mb-5 d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
+          <div class="card">
             <div class="card-body">
-              <img src="img/img2/8.jpg" class="card-img-top" alt="...">
-              <h4 data-translete="MrsWasilashouse">Mrs. Wasila's house</h4>
-              <div class="card-des">
-                <p>Its construction dates back to the Ottoman era, by the brothers Abdul Haq and Lutfi Muhammad
-                  al-Kinani in 1074 AH/1664 AD</p>
+              <img src="img/Landmark-8.jpg" class="card-img-top" alt="Mrs. Wasila's house" title="Mrs. Wasila's house">
+              <h4 data-translate="MrsWasilashouse">Mrs. Wasila's house</h4>
+              <div class="card-desc">
+                <p data-translate="p8">Its construction dates back to the Ottoman era, by the brothers Abdul Haq and
+                  Lutfi Muhammad
+                  al-Kinani in 1074 AH/1664 AD, Lady Wasila Khatoun was its last resident since the beginning of the
+                  19th century AD.The entrance of the house overlooks Al-Sitt Wasila Alley.</p>
                 </p>
               </div>
             </div>
             <div class="button-two d-flex justify-content-between">
               <a href="https://ar.wikipedia.org/wiki/%D8%A8%D9%8A%D8%AA_%D8%A7%D9%84%D8%B3%D8%AA_%D9%88%D8%B3%D9%8A%D9%84%D8%A9"
-                class="btn btn-primary " target="_blank" data-translete="Readmore">Read more</a>
-              <button type="button" class="btn btn-outline-warning " data-translete="Booknow">Book now</button>
+               class="btn btn-primary " target="_blank" data-translate="Readmore">Read more</a>
+              <button type="button" class="btn btn-outline-warning " data-translate="Booknow">Book now</button>
             </div>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-4 mb-5 d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
+          <div class="card">
             <div class="card-body">
-              <img src="img/img2/9.jpeg" class="card-img-top" alt="...">
-              <h4 data-translete="RawdaIslandNilometer">Rawda Island Nilometer</h4>
-              <div class="card-des">
-                <p>It was built in 247 AH/861 AD by order of the Abbasid Caliph Al-Mutawakkil on the island of Rawda
-                </p>
+              <img src="img/Landmark-9.jpeg" class="card-img-top" alt="Rawda Island Nilometer" title="Rawda Island Nilometer">
+              <h4 data-translate="RawdaIslandNilometer">Rawda Island Nilometer</h4>
+              <div class="card-desc">
+                <p data-translate="p9">It was built in 247 AH/861 AD by order of the Abbasid Caliph Al-Mutawakkil on the
+                  island of Rawda,It
+                  was used to measure the flood level, allowing the determination of the amount of incoming water during
+                  the flood.
                 </p>
               </div>
             </div>
             <div class="button-two d-flex justify-content-between">
-              <a href="https://en.wikipedia.org/wiki/Nilometer" class="btn btn-primary " target="_blank" data-translete="Readmore">Read more</a>
-              <button type="button" class="btn btn-outline-warning " data-translete="Booknow">Book now</button>
+              <a href="https://en.wikipedia.org/wiki/Nilometer" class="btn btn-primary " target="_blank" data-translate="Readmore">Read more</a>
+              <button type="button" class="btn btn-outline-warning " data-translate="Booknow">Book now</button>
             </div>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-4 mb-5 d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
+          <div class="card">
             <div class="card-body">
-              <img src="img/img2/10.jpeg" class="card-img-top" alt="...">
-              <h4 data-translete="AlJeddawiAgency">Al-Jeddawi Agency</h4>
-              <div class="card-des">
-                <p>It was built by Hassan Bek Al-Jadawi in 1207 AH/ 1792 AD, who was named after him because he took
-                  over the Emirate of Jeddah in 1184 AH/ 1770 AD.</p>
+              <img src="img/Landmark-10.jpeg" class="card-img-top" alt="Al-Jeddawi Agency" title="Al-Jeddawi Agency">
+              <h4 data-translate="AlJeddawiAgency">Al-Jeddawi Agency</h4>
+              <div class="card-desc">
+                <p data-translate="p10">It was built by Hassan Bek Al-Jadawi in 1207 AH/ 1792 AD, who was named after
+                  him because he took
+                  over the Emirate of Jeddah in 1184 AH/ 1770 AD, The Jadawi Agency is considered evidence of the
+                  economic prosperity that the city of Esna experienced during the 12th AH / 18th AD century.</p>
                 </p>
               </div>
             </div>
             <div class="button-two d-flex justify-content-between">
               <a href="https://ar.wikipedia.org/wiki/%D9%88%D9%83%D8%A7%D9%84%D8%A9_%D8%A7%D9%84%D8%AC%D8%AF%D8%A7%D9%88%D9%8A"
-                class="btn btn-primary " target="_blank" data-translete="Readmore">Read more</a>
-              <button type="button" class="btn btn-outline-warning " data-translete="Booknow">Book now</button>
+                class="btn btn-primary " target="_blank" data-translate="Readmore">Read more</a>
+              <button type="button" class="btn btn-outline-warning " data-translate="Booknow">Book now</button>
             </div>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-4 mb-5 d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
+          <div class="card">
             <div class="card-body">
-              <img src="img/img2/11.jpeg" class="card-img-top" alt="...">
-              <h4 data-translete="QaitbayCitadel">Qaitbay Citadel</h4>
-              <div class="card-des">
-                <p>It was built by Sultan Al-Ashraf Abu Al-Nasr Qaitbay Al-Mahmudi between 882 AH/1477 AD and 884
-                  AH/1479 AD. The citadel is located in the Anfoushi district. </p>
+              <img src="img/Landmark-11.jpeg" class="card-img-top" alt="Qaitbay Citadel" title="Qaitbay Citadel">
+              <h4 data-translate="QaitbayCitadel">Qaitbay Citadel</h4>
+              <div class="card-desc">
+                <p data-translate="p11">It was built by Sultan Al-Ashraf Abu Al-Nasr Qaitbay Al-Mahmudi between 882
+                  AH/1477 AD and 884
+                  AH/1479 AD. The citadel is located in the Anfoushi district- Formerly Pharos Island – West Alexandria,
+                  consisting of a rectangular area surrounded by the sea on three sides. The citadel has a main entrance
+                  on the southwest side in the form of two towers. </p>
                 </p>
               </div>
             </div>
             <div class="button-two d-flex justify-content-between">
-              <a href="https://en.wikipedia.org/wiki/Citadel_of_Qaitbay" class="btn btn-primary " target="_blank" data-translete="Readmore">Read
-                more</a>
-              <button type="button" class="btn btn-outline-warning " data-translete="Booknow">Book now</button>
+              <a href="https://en.wikipedia.org/wiki/Citadel_of_Qaitbay" class="btn btn-primary " target="_blank" data-translate="Readmore">Read more</a>
+              <button type="button" class="btn btn-outline-warning " data-translate="Booknow">Book now</button>
             </div>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-4 mb-5 d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
+          <div class="card">
             <div class="card-body">
-              <img src="img/img2/12.jpeg" class="card-img-top" alt="...">
-              <h4 data-translete="JamalalDinhouse">Jamal al-Din house</h4>
-              <div class="card-des">
-                <p>The golden entity of Jamal al-Din “Shahbandar” the Great in Egypt in the year 1047 AH/ 1637 AD,
-                  located in Khashqadam Alley (Hawsh Qadam).</p>
-                </p>
+              <img src="img/Landmark-12.jpeg" class="card-img-top" alt="Jamal al-Din house" title="Jamal al-Din house">
+              <h4 data-translate="JamalalDinhouse">Jamal al-Din house</h4>
+              <div class="card-desc">
+                <p data-translate="p12">The golden entity of Jamal al-Din “Shahbandar” the Great in Egypt in the year
+                  1047 AH/ 1637 AD,
+                  located in Khashqadam Alley (Hawsh Qadam) Branching off from Al-Muizz li-Din Allah Street in the
+                  Al-Ghuriya area of Downtown Cairo, The house is considered one of Egypt's significant historical
+                  buildings</p>
               </div>
             </div>
             <div class="button-two d-flex justify-content-between">
               <a href="https://ar.wikipedia.org/wiki/%D8%A8%D9%8A%D8%AA_%D8%AC%D9%85%D8%A7%D9%84_%D8%A7%D9%84%D8%AF%D9%8A%D9%86_%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A"
-                class="btn btn-primary " target="_blank" data-translete="Readmore">Read more</a>
-              <button type="button" class="btn btn-outline-warning " data-translete="Booknow">Book now</button>
+                class="btn btn-primary " target="_blank" data-translate="Readmore">Read more</a>
+              <button type="button" class="btn btn-outline-warning " data-translate="Booknow">Book now</button>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- end cards -->
+  <!-- end cards -->
     <div class="d-flex justify-content-center ">
-      <a class="btn btn-primary rounded-pill main-btn text-uppercase" href="#" data-translete="Formore">For more</a>
+      <a class="btn btn-primary rounded-pill main-btn text-uppercase" href="#" data-translate="Formore">For more</a>
     </div>
   </div>
-  <!-- end our-work -->
+<!-- end our-work -->
 
+<!-- start footer -->
+<!-- FOOTER -->
   <div class="footer pt-5 pb-5 text-white-50 text-center text-md-start">
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-lg-4">
           <div class="info mb-5">
-            <img src="img/Untitled design (3) (2) (1).png" alt="" class="mb-4">
-            <p class="mb-5">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur
-              sed, convallis at tellus.</p>
+            <img src="img/Logo-2.png" alt="Rahlat-Turathna" title="Rahlat-Turathna" class="mb-4">
+            <p class="mb-5" data-translate="p13">Experience the beauty of Islamic heritage in Egypt, where history lives
+              in every stone and every street tells a timeless story.</p>
             <div class="copyright">
-              Created By <span>Abdullah Mohamed Amer</span>
-              <br>
-              <span>& Moamen shaaban zaki</span>
-              <br>
-              An idea by <span>Hussien Ali Mohammad</span>
+              Created By <span>Heritage Revival Team</span>
+               <!-- Created By <span>Abdullah Mohamed Amer</span> -->
               <div>&COPY; 2026 - <span>Rahlat Turathna</span></div>
             </div>
           </div>
         </div>
         <div class="col-md-6 col-lg-2">
           <div class="links-footer">
-            <h5 class="text-light">Links</h5>
+            <h5 data-translate="h5">Links</h5>
             <ul class="list-unstyled lh-lg">
-              <li>Home</li>
-              <li>Our Services</li>
-              <li>Portfolio</li>
-              <li>Testimonials</li>
-              <li>Support</li>
-              <li>Terms and Condition</li>
+              <li data-translate="Home">Home</li>
+              <li data-translate="OurServices">Our Services</li>
+              <li data-translate="Portfolio">Portfolio</li>
+              <li data-translate="Testimonials">Testimonials</li>
+              <li data-translate="Support">Support</li>
+              <li data-translate="TermsandCondition">Terms and Condition</li>
             </ul>
           </div>
         </div>
         <div class="col-md-6 col-lg-2">
           <div class="links-footer">
-            <h5 class="text-light">About Us</h5>
+            <h5  data-translate="AboutUs">About Us</h5>
             <ul class="list-unstyled lh-lg">
-              <li>Sign In</li>
-              <li>Register</li>
-              <li>About Us</li>
-              <li>Blog</li>
-              <li>Contact Us</li>
+              <li data-translate="SignIn">Sign In</li>
+              <li data-translate="Register">Register</li>
+              <li data-translate="AboutUs">About Us</li>
+              <li data-translate="Blog">Blog</li>
+              <li data-translate="ContactUs">Contact Us</li>
             </ul>
           </div>
         </div>
         <div class="col-md-6 col-lg-4">
           <div class="contact">
-            <h5 class="text-light">Contact Us</h5>
-            <p class="lh-lg mt-3 mb-5">Get in touch with us via mail phone.We are waiting for your call or message</p>
-            <a href="#" class="btn btn-primary rounded-pill main-btn w-100">anoshe781@gmail.com</a>
-            <!-- <p class="text-light">Email: anoshe781@gmail.com</p> -->
+            <h5 data-translate="ContactUs">Contact Us</h5>
+            <p class="lh-lg mt-3 mb-5" data-translate="P14">Get in touch with us via mail phone.We are waiting for your call or message</p>
+            <a href="#" class="btn btn-primary rounded-pill main-btn w-100">info@rahlatTurathna.com</a>
+            <!-- <a href="#" class="btn btn-primary rounded-pill main-btn w-100">anoshe77881@gmail.com</a> -->
             <br>
             <br>
-            <p class="text-light">Phone: +201140074495</p>
+            <p class="text-light" data-translate="P15">Phone: +20 (123) 456-7890</p>
+            <!-- <p class="text-light" data-translate="P15">Phone: +201140074495</p> -->
             <ul class="d-flex mt-5 list-unstyled gap-4">
               <li>
                 <a class="d-block text-light" href="#">
@@ -393,12 +411,11 @@
       </div>
     </div>
   </div>
+<!-- end footer -->
 
-
-
-  <script src="boots/js/bootstrap.bundle.min.js"></script>
-  <script src="boots/js/all.min.js"></script>
-  <script src="main.js"></script>
+  <script src="JS/js/bootstrap.bundle.min.js"></script>
+  <script src="JS/js/all.min.js"></script>
+  <script src="JS/main.js"></script>
 </body>
 
 </html>
